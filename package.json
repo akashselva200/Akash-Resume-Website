@@ -1,0 +1,9 @@
+{ "homepage": "https://akashselva200.github.io/Akash-Resume-Website" ,
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
